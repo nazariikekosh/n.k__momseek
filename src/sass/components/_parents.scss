@@ -1,3 +1,32 @@
 .parents {
-   
+    background: #F5F5F5;
+}
+.for__parents {
+    margin-top: 74px;
+    background-image: url(../../img/for_parents.png);
+    // max-width: 1261px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .for_parents-subtitle {
+        
+        p {
+            padding: 58px 0 38px 58px;
+            color: #FFFFFF;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 1.2;
+        }
+    }
+
+    .for_parents-title {
+        padding: 0 0 120px 56px;
+        h2 {
+            color: #FFFFFF;
+            font-weight: 800;
+            font-size: 64px;
+            line-height: 1.2;
+        }
+    }
 }
