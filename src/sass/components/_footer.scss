@@ -1,4 +1,6 @@
-.footer{
-    background-color: black;
-    color: #fff;
+.footer {
+    background-color: #000000;
+    &__logo {
+        color: #FFFFFF ;
+    }
 }
