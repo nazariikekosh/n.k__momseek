@@ -24,8 +24,82 @@
         h2 {
             color: #FFFFFF;
             font-weight: 800;
-            font-size: 64px;
+            font-size: 58px;
             line-height: 1.2;
+        }
+    }
+    .parents__item-your_ad {
+        margin-left: 42px;
+        margin-bottom: 12px;
+        border-radius: 12px;
+        background-color: white;
+        h3 {
+            padding-top: 18px;
+            padding-bottom: 17px;
+            padding-left: 20px;
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 1.2;
+            color: #1E3173;
+        }
+        p{
+            padding-left: 20px;
+            padding-bottom: 30px;
+            padding-right: 30px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.2;
+            color: #1E3173;
+        }
+    }
+    .parents__item-questionnaire {
+        margin-left: 38px;
+        margin-bottom: 12px;
+        border-radius: 12px;
+        background-color: #1E3173;
+        h3{
+            padding-top: 18px;
+            padding-bottom: 17px;
+            padding-left: 20px;
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 1.2;
+            color: white;
+        }
+        p{
+            padding-left: 20px;
+            padding-bottom: 30px;
+            padding-left: 20px;
+            padding-right: 30px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.2;
+            color: white;
+        }
+    }
+    .parents__item-contract{
+        background-color: #1E3173;
+        border-radius: 12px;
+        margin-bottom: 12px;
+        margin-left: 38px;
+        h3{
+            padding-top: 18px;
+            padding-bottom: 17px;
+            padding-left: 20px;
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 1.2;
+            color: white;
+        }
+        p{
+            padding-left: 20px;
+            padding-bottom: 30px;
+            padding-left: 20px;
+            padding-right: 30px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.2;
+            color: white;
         }
     }
 }

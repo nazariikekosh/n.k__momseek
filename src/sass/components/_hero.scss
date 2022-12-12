@@ -1,69 +1,87 @@
 .hero {
     background: linear-gradient(102.5deg, #FFF6DA 0%, #FFDEF2 100%);
+
     .hero_img {
         margin-top: 96px;
+    }
 
+    .hero_title {
+        margin-top: 96px;
+
+        h2 {
+            font-weight: 700;
+            font-size: 48px;
+
+            @media screen and (max-width:992px) {
+                font-size: 40px;
+            }
+        }
+
+        p {
+            margin-top: 4px;
+            font-weight: 500;
+            font-size: 28px;
+
+            @media screen and (max-width:992px) {
+                font-size: 26px;
+            }
+        }
     }
-}
-.hero_title{
-    margin-top: 96px;
-    h2{
-        font-weight: 700;
-        font-size: 48px;
-    }
-    p {
-        margin-top: 4px;
-        font-weight: 500;
-        font-size: 28px;
-    }
-}
-.hero_btn-choice {
-    margin-top: 54px;
-    margin-right: 17px;
-    padding: 20px 140px 20px 26px;
-    background: #FFFFFF;
-    border-radius: 32px;
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 1.2;
-}
-.hero_btn-city {
-    margin-top: 54px;
-    margin-right: 38px;
-    padding: 20px 280px 20px 30px;
-    background: #FFFFFF;
-    border-radius: 32px;
-    cursor: pointer;
-    p {
-        white-space: nowrap;
-        margin-left: 13px;
+
+    .hero_btn-choice {
+        margin-top: 54px;
+        margin-right: 17px;
+        padding: 20px 140px 20px 26px;
+        background: #FFFFFF;
+        border-radius: 32px;
+        cursor: pointer;
         font-weight: 600;
         font-size: 18px;
         line-height: 1.2;
     }
-}
-.hero_btn-search {
-    margin: 54px  0px;
-    padding: 20px 146px;
-    background: #1E3173;
-    border-radius: 32px;
-    justify-content: center;
-    color: #FFFFFF;
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 1.2;
-}
-.hero_btn-search:hover {
-    background-color: #e3c1f3;
-    box-shadow: 0 0 10px #324ba5, 0 0 20px #324ba5, 0 0 40px #324ba5;
-}
-.hero_btn-choice:hover {
-    background-color: #e3c1f3;
-    box-shadow: 0 0 10px #324ba5, 0 0 20px #324ba5, 0 0 40px #324ba5;
-}
-.hero_btn-city:hover {
-    background-color: #e3c1f3;
-    box-shadow: 0 0 10px #324ba5, 0 0 20px #324ba5, 0 0 40px #324ba5;
+
+    .hero_btn-city {
+        margin-top: 54px;
+        margin-right: 38px;
+        padding: 20px 280px 20px 30px;
+        background: #FFFFFF;
+        border-radius: 32px;
+        cursor: pointer;
+
+        p {
+            white-space: nowrap;
+            margin-left: 13px;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 1.2;
+        }
+    }
+
+    .hero_btn-search {
+        margin: 54px 0px;
+        padding: 20px 146px;
+        background: #1E3173;
+        border-radius: 32px;
+        justify-content: center;
+        color: #FFFFFF;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.2;
+    }
+
+    .hero_btn-search:hover {
+        background-color: #e3c1f3;
+        box-shadow: 0 0 10px #324ba5, 0 0 20px #324ba5, 0 0 40px #324ba5;
+    }
+
+    .hero_btn-choice:hover {
+        background-color: #e3c1f3;
+        box-shadow: 0 0 10px #324ba5, 0 0 20px #324ba5, 0 0 40px #324ba5;
+    }
+
+    .hero_btn-city:hover {
+        background-color: #e3c1f3;
+        box-shadow: 0 0 10px #324ba5, 0 0 20px #324ba5, 0 0 40px #324ba5;
+    }
 }
