@@ -3,26 +3,33 @@
     margin-top: 100px;
     margin-bottom: 100px;
     .for__nurse{
-        background-image: url("../../img/nurse_1.png");
+        background-image: url("../../img/nurse_1.png"), url("../../img/nurse_elips.png");
+        max-height: 580px;
+        height: 100%;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        p{
-            padding-top: 59px;
-            padding-left: 58px;
-            padding-bottom: 38px;
-            font-weight: 700;
-            font-size: 22px;
-            line-height: 1.2;
-            color: #FFFFFF;
+        .for__nurse_subtitle{
+            p{
+                padding-top: 59px;
+                padding-left: 58px;
+                padding-bottom: 38px;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 1.2;
+                color: #FFFFFF;
+            }
         }
-        h2{
-            padding-left: 56px;
-            font-weight: 800;
-            font-size: 64px;
-            line-height: 1.2;
-            color: #FFFFFF;
+        .for__nurse_title{
+            h2{
+                padding-left: 56px;
+                font-weight: 800;
+                font-size: 64px;
+                line-height: 1.2;
+                color: #FFFFFF;
+            }
         }
+       
     }
     .for__nurse_item{
         padding-top: 67px;
