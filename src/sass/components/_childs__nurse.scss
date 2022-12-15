@@ -1,16 +1,18 @@
-.childs__nurse{
+.childs__nurse {
     background-color: white;
     margin-top: 100px;
     margin-bottom: 100px;
-    .for__nurse{
-        background-image: url("../../img/nurse_1.png"), url("../../img/nurse_elips.png");
+
+    .for__nurse {
+        background-image: url("../../img/nurse.png");
         max-height: 580px;
         height: 100%;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        .for__nurse_subtitle{
-            p{
+
+        .for__nurse_subtitle {
+            p {
                 padding-top: 59px;
                 padding-left: 58px;
                 padding-bottom: 38px;
@@ -20,8 +22,9 @@
                 color: #FFFFFF;
             }
         }
-        .for__nurse_title{
-            h2{
+
+        .for__nurse_title {
+            h2 {
                 padding-left: 56px;
                 font-weight: 800;
                 font-size: 64px;
@@ -29,15 +32,19 @@
                 color: #FFFFFF;
             }
         }
-       
+
     }
-    .for__nurse_item{
+
+    .for__nurse_item {
         padding-top: 67px;
-        .profile{
+
+        .profile {
             background-color: #FFFFFF;
             border-radius: 12px;
             margin-bottom: 84px;
-            h3{
+            margin-left: 65px;
+
+            h3 {
                 margin-bottom: 17px;
                 margin-top: 18px;
                 margin-left: 23px;
@@ -46,13 +53,28 @@
                 line-height: 1.2;
                 color: #000;
             }
-            p{
-                
+
+            p {
+                padding: 0 34px 24px 24px;
                 font-weight: 400;
                 font-size: 16px;
-                color: #1E3173;;
+                color: #1E3173;
+            }
+        }
+        .announcement{
+            background-color: #000;
+            border-radius: 12px;
+            h3{
+                color: white;
+                font-weight: 800;
+                font-size: 24px;
+            }
+            p{
+                color: white;
+                font-weight: 400;
+                font-size: 16px;
             }
         }
     }
- 
+
 }
