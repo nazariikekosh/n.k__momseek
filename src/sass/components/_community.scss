@@ -1,0 +1,45 @@
+.community{
+    margin-top: 42px;
+    margin-bottom: 100px;
+    h2{
+        margin-bottom: 9px;
+        font-weight: 700;
+        font-size: 48px;
+        color: #000000;
+    }
+    &__subtitle{
+        font-weight: 400;
+        font-size: 24px;
+        color: #000000;
+    }
+    .comunity__item{
+        margin-top: 40px;
+        .forum{
+            overflow: hidden;
+        }
+        .forum__title{
+            margin-top: 6px;
+            font-weight: 700;
+            font-size: 28px;
+            color: #000000;
+        }
+        .forum__content{
+            margin-top: 44px;
+            p{
+                font-weight: 400;
+                font-size: 14px;
+                color: #000000;
+            }
+            a{
+                font-weight: 600;
+                font-size: 22px;
+                color: #1E3173;
+            }
+        }
+        .discussing{
+            overflow: hidden;
+            margin-left: 30px;
+            
+        }
+    }
+}
